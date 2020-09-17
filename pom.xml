@@ -6,7 +6,7 @@
     <artifactId>tapis-bom-tst</artifactId>
     <version>1.11.2-SNAPSHOT</version>
     <packaging>pom</packaging>
-
+    <!-- TEST BOM REPO for Tapis java shared code releases using maven+git -->
     <!-- Main BOM file for Tapis java projects using shared code and settings.
          Defines organization, licenses, developers, repositories, shared properties, dependency management
          and plugin management.
