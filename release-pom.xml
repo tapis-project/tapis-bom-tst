@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.utexas.tacc.tapis</groupId>
   <artifactId>tapis-bom-tst</artifactId>
-  <version>1.11.14</version>
+  <version>1.11.15</version>
   <packaging>pom</packaging>
   <name>TACC Tapis API BOM</name>
   <description>TAPIS services BOM dependencies</description>
@@ -178,7 +178,6 @@
     <jetty-server.version>9.4.0.M1</jetty-server.version>
     <swagger-jaxrs2.version>2.0.10</swagger-jaxrs2.version>
     <commons-math3.version>3.6.1</commons-math3.version>
-    <gpg.passphrase>tacc4ever</gpg.passphrase>
     <software.amazon.awssdk.version>2.13.11</software.amazon.awssdk.version>
     <testng.version>6.14.3</testng.version>
     <commons-lang3.version>3.9</commons-lang3.version>
@@ -195,7 +194,6 @@
     <jjwt.version>0.10.7</jjwt.version>
     <gson-fire.version>1.8.3</gson-fire.version>
     <flyway-maven-plugin.version>6.0.8</flyway-maven-plugin.version>
-    <skip.signing>false</skip.signing>
     <httpmime.version>4.5.8</httpmime.version>
     <okhttp.version>2.7.5</okhttp.version>
     <jcraft.version>0.1.55</jcraft.version>
@@ -205,7 +203,7 @@
     <javax.xml.bind.jaxb-core.version>2.3.0.1</javax.xml.bind.jaxb-core.version>
     <maven-shade-plugin.version>3.2.1</maven-shade-plugin.version>
     <mockito-core.version>3.0.0</mockito-core.version>
-    <build.timestamp>2020-09-20T17:23:54Z</build.timestamp>
+    <build.timestamp>2020-09-20T18:09:52Z</build.timestamp>
     <statefulj.version>3.0</statefulj.version>
     <java-source.version>1.13</java-source.version>
     <google-maven-replacer-plugin.version>1.5.3</google-maven-replacer-plugin.version>
@@ -280,7 +278,7 @@
   </pluginRepositories>
   <build>
     <sourceDirectory>src/main/java</sourceDirectory>
-    <scriptSourceDirectory>/var/lib/jenkins/jobs/Tapis/jobs/DEV/jobs/release-bom-tst/workspace/src/main/scripts</scriptSourceDirectory>
+    <scriptSourceDirectory>/home/scblack/src_git/github/tapis_shared_test/tapis-bom-tst/src/main/scripts</scriptSourceDirectory>
     <testSourceDirectory>src/test/java</testSourceDirectory>
     <outputDirectory>target/classes</outputDirectory>
     <testOutputDirectory>target/test-classes</testOutputDirectory>
@@ -295,7 +293,7 @@
       </testResource>
     </testResources>
     <directory>target</directory>
-    <finalName>tapis-bom-tst-1.11.14</finalName>
+    <finalName>tapis-bom-tst-1.11.15</finalName>
   </build>
   <reporting>
     <outputDirectory>target/site</outputDirectory>
