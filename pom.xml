@@ -4,7 +4,7 @@
 
     <groupId>edu.utexas.tacc.tapis</groupId>
     <artifactId>tapis-bom-tst</artifactId>
-    <version>1.11.11</version>
+    <version>1.11.11-SNAPSHOT</version>
     <packaging>pom</packaging>
     <!-- TEST BOM REPO for Tapis java shared code releases using maven+git -->
     <!-- Main BOM file for Tapis java projects using shared code and settings.
@@ -24,7 +24,7 @@
     <scm>
         <connection>scm:git:git@github.com:tapis-project/tapis-bom-tst.git</connection>
         <url>https://github.com/tapis-project/tapis-bom-tst</url>
-        <tag>tapis-bom-tst-1.11.11</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <repositories>
