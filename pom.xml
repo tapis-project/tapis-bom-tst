@@ -4,9 +4,8 @@
 
     <groupId>edu.utexas.tacc.tapis</groupId>
     <artifactId>tapis-bom-tst</artifactId>
-    <version>1.11.20-SNAPSHOT</version>
+    <version>1.11.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <!-- TEST BOM REPO for Tapis java shared code releases using maven+git -->
     <!-- Main BOM file for Tapis java projects using shared code and settings.
          Defines organization, licenses, developers, repositories, shared properties, dependency management
          and plugin management.
@@ -194,7 +193,7 @@
         <!-- Maven compiler plugin Java release support -->
         <maven-compiler-plugin-release>13</maven-compiler-plugin-release>
 
-        <!-- Version of tapis-shared-java to be used. Individual projects may want to override. -->
+        <!-- Version of tapis-client-java to be used. Individual projects may want to override. -->
         <tapis-client-java.version>[1.11,2.0)</tapis-client-java.version>
 
         <!-- Version of tapis-shared-java to be used. Individual projects may want to override. -->
